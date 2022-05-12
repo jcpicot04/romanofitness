@@ -1,0 +1,40 @@
+.site-footer {
+    background-color: #ECEBEB;
+      text-align: center;
+      padding: 10px 0;
+  }
+  
+  #social-wrapper {
+      text-align: center;
+  }
+  
+  .social-wrapper {
+      text-align: center;
+  }
+  
+  .social-wrapper ul li {
+      display: inline;
+      margin: 0 5px;
+  }
+  
+  .instagram-icon,
+  .youtube-icon,
+  .tiktok-icon{
+      margin-top: .625em;
+      width: 40px;
+      height: 40px;
+      opacity: .6;
+      filter: alpha(opacity=60);
+    border-radius: 25px;
+  }
+  
+  .instagram-icon:hover,
+  .youtube-icon:hover,
+  .tiktok-icon:hover {
+      opacity: 1.0;
+      filter: alpha(opacity=100);
+  }
+  
+  .footer-nav p {
+      text-align: center;
+  }
