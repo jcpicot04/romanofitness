@@ -111,7 +111,7 @@ body {
 
 @media (min-width: 1500px) {
   .card {
-    height: 450px;
+    height: 350px;
   }
 
 }
@@ -190,7 +190,7 @@ body {
 }
 
 .card:nth-child(3):before {
-  background-image: url(https://img.freepik.com/free-photo/healthy-raw-food-dumbbell-wooden-surface_23-2147882036.jpg?w=2000);
+  background-image: url(https://img.freepik.com/foto-gratis/verduras-frescas-pesas-sobre-fondo-madera_23-2147882039.jpg?size=626&ext=jpg);
 }
 
 .content {
