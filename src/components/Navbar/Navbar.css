@@ -74,7 +74,8 @@ body {
   }
   .header__middle__logo{
     width: 25%;
-    float: left;
+    float:left;
+    text-align: initial;
   }
   .header__middle__menus {
     width: 70%;

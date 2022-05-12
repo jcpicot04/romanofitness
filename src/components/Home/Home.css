@@ -1,5 +1,5 @@
 .home{
-    background-image: url('../../assets/homebg/IMG_0272.jpg');
+    background-image: url('../../assets/homebg/IMG_0272-min.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -64,7 +64,7 @@
 
     .home{
       width: 100vw;
-      background-image: url('../../assets/homebg/banner3.jpg');
+      background-image: url('../../assets/homebg/banner3-min.jpg');
     }
     #container-home {
       display: none;
@@ -80,7 +80,7 @@
 
     .home{
       width: 100vw;
-      background-image: url('../../assets/homebg/banner2.jpg');
+      background-image: url('../../assets/homebg/banner2-min.jpg');
     }
     #container-home {
       display: none;
@@ -98,7 +98,7 @@
   @media only screen and (max-width: 1699px) and (min-width: 1200px) and (min-height: 1000px){
 
     .home{
-      background-image: url('../../assets/homebg/banner.jpg');
+      background-image: url('../../assets/homebg/banner-min.jpg');
   }
 
   #container-home {
@@ -161,7 +161,7 @@
   
   .arrow {
     position: relative;
-    bottom: -90%;
+    bottom: -88%;
     left: 50%;
     margin-left: -20px;
     width: 40px;
