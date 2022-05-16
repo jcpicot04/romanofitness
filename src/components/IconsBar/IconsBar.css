@@ -79,7 +79,7 @@
   padding-bottom: 80px;
 }
 
-@media screen and (min-width: 1px) and (max-width: 1600px) {
+@media screen and (min-width: 1px) and (max-width: 1300px) {
   .container-icon1,.container-icon3 {
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -127,7 +127,7 @@
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     align-self: center;
-    width: 100%;
+    width: 80%;
   }
   .container-icon2 {
     display: -ms-flexbox;
@@ -283,108 +283,120 @@
 @media screen and (min-width: 1301px) and (max-width: 1400px) {
 
   .txt-icon1,.txt-icon2,.txt-icon3 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
+  }
+  .img-icon1,.img-icon2,.img-icon3 {
+    width: 70%;
   }
 }
 
 @media screen and (min-width: 1401px) and (max-width: 1500px) {
 
   .txt-icon1,.txt-icon2,.txt-icon3 {
-    font-size: 2.8rem;
+    font-size: 1.8rem;
+  }
+  .img-icon1,.img-icon2,.img-icon3 {
+    width: 70%;
   }
 }
 
 @media screen and (min-width: 1501px) and (max-width: 1600px) {
 
   .txt-icon1,.txt-icon2,.txt-icon3 {
-    font-size: 3rem;
+    font-size: 1.8rem;
+  }
+  .img-icon1,.img-icon2,.img-icon3 {
+    width: 70%;
   }
 }
 
 @media screen and (min-width: 1601px) and (max-width: 1800px) {
 
   .txt-icon1,.txt-icon2,.txt-icon3 {
-    font-size: 2.2rem;
+    font-size: 2rem;
+  }
+  .img-icon1,.img-icon2,.img-icon3 {
+    width: 60%;
   }
 }
 
 @media screen and (min-width: 1801px) and (max-width: 2000px) {
 
   .txt-icon1,.txt-icon2,.txt-icon3 {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
   }
   .img-icon1,.img-icon2,.img-icon3 {
-    width: 50%;
+    width: 40%;
   }
 }
 
 @media screen and (min-width: 2001px) and (max-width: 2200px) {
 
   .txt-icon1,.txt-icon2,.txt-icon3 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
   .img-icon1,.img-icon2,.img-icon3 {
-    width: 50%;
+    width: 40%;
   }
 }
 
 @media screen and (min-width: 2201px) and (max-width: 2400px) {
 
   .txt-icon1,.txt-icon2,.txt-icon3 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   .img-icon1,.img-icon2,.img-icon3 {
-    width: 50%;
+    width: 40%;
   }
 }
 
 @media screen and (min-width: 2401px) and (max-width: 2600px) {
 
   .txt-icon1,.txt-icon2,.txt-icon3 {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
   }
   .img-icon1,.img-icon2,.img-icon3 {
-    width: 50%;
+    width: 40%;
   }
 }
 
 @media screen and (min-width: 2601px) and (max-width: 2800px) {
 
   .txt-icon1,.txt-icon2,.txt-icon3 {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
   }
   .img-icon1,.img-icon2,.img-icon3 {
-    width: 50%;
+    width: 40%;
   }
 }
 
 @media screen and (min-width: 2801px) and (max-width: 3000px) {
 
   .txt-icon1,.txt-icon2,.txt-icon3 {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   .img-icon1,.img-icon2,.img-icon3 {
-    width: 50%;
+    width: 40%;
   }
 }
 
 @media screen and (min-width: 3001px) and (max-width: 3400px) {
 
   .txt-icon1,.txt-icon2,.txt-icon3 {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
   .img-icon1,.img-icon2,.img-icon3 {
-    width: 50%;
+    width: 40%;
   }
 }
 
 @media screen and (min-width: 3401px) and (max-width: 3800px) {
 
   .txt-icon1,.txt-icon2,.txt-icon3 {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
   }
   .img-icon1,.img-icon2,.img-icon3 {
-    width: 50%;
+    width: 40%;
   }
 }
 

@@ -20,7 +20,7 @@ const Home = () => {
         </div>
         no está tan lejos!
       </div>
-      <div onClick={scrollView} class="arrow bounce"></div>
+      <div onClick={scrollView} className="arrow bounce"></div>
       </div>
   )
 }
