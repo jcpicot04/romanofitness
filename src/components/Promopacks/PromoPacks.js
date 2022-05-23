@@ -101,8 +101,7 @@ const PromoPacks = () => {
           <div className="content">
             <h2 className="title">PLAN COMPLETO</h2>
             <p className="copy">
-              Todos los beneficios del plan nutricional + plan entrenamiento
-              juntos!
+              Beneficios del plan nutricional + plan entrenamiento juntos!
             </p>
             <p className="copy">
               25€/mes
