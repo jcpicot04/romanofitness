@@ -39,7 +39,7 @@ const Navbar = () => {
                   </>}
                   <ul className={boxClass.join(' ')}>
                   <li  className="menu-item" ><Link onClick={toggleClass} activeClass="active" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" href="#" to="home"> Inicio </Link> </li>
-                  <li className="menu-item " ><Link onClick={toggleClass} activeClass="active" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" href="#conoceme" to="about"> Conoceme </Link> </li>
+                  <li className="menu-item " ><Link onClick={toggleClass} activeClass="active" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" href="#conoceme" to="about"> Conóceme </Link> </li>
                   <li className="menu-item " ><Link onClick={toggleClass} activeClass="active" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" href="#clientes" to="carousel"> Resultados </Link> </li>
                   <li className="menu-item " ><Link onClick={toggleClass} activeClass="active" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" href="#packs" to="personalized"> Planes </Link> </li>
                   <li className="menu-item " ><Link onClick={toggleClass} activeClass="active" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" href="#contacto" to="contact-form"> Contacto </Link> </li>
