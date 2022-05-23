@@ -1,12 +1,13 @@
 .site-footer {
     background-color: #ECEBEB;
-      text-align: center;
-      padding: 10px 0;
+    text-align: center;
+    padding: 10px 0;
+    background-image: url(../../assets/Sprinkle.svg);
   }
-  
-  #social-wrapper {
-      text-align: center;
-  }
+
+.social-media {
+    padding: 0;
+}
   
   .social-wrapper {
       text-align: center;

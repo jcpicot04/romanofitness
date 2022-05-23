@@ -231,6 +231,7 @@ body {
   text-transform: uppercase;
   color: white;
   background-color: black;
+  outline: 1px solid rgb(255, 255, 255);
   border: none;
 }
 .btn:hover {
@@ -238,7 +239,6 @@ body {
 }
 .btn:focus {
   outline: 1px solid yellow;
-  outline-offset: 3px;
 }
 
 @media (hover: hover) and (min-width: 1400px) {

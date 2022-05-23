@@ -2,6 +2,10 @@
     --swiper-theme-color: rgb(255, 255, 255);
 }
 
+.swiper-button-prev,.swiper-button-next{
+    visibility: visible;
+}
+
 .carousel {
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -104,6 +108,10 @@
         align-self: auto;
         padding-top: 50px;
         font-size: 2.5rem;
+    }
+
+    .swiper-button-prev,.swiper-button-next{
+        visibility: hidden;
     }
   }
   

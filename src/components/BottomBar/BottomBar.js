@@ -10,7 +10,7 @@ const BottomBar = () => {
   return (
     <footer  className="site-footer" role="contentinfo">
   <div className="social-wrapper">
-    <ul>
+    <ul className='social-media'>
       <li>
         <a href="https://www.instagram.com/romano_fitness/" target="_blank" rel="noreferrer">
           <img src={instagram} alt="Instagram Logo" className="instagram-icon"/></a>

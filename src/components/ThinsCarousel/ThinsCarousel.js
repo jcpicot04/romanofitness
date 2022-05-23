@@ -51,6 +51,7 @@ const ThinsCarousel =()=> {
             className='swiper'
             spaceBetween={0}
             slidesPerView={1}
+            navigation
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
             loop={true}

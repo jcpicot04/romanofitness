@@ -39,7 +39,7 @@ const PromoPacks = () => {
       <Dialog
         header="CONTENIDO PLANES PERSONALIZADOS"
         visible={displayBasic}
-        style={{ width: "50vw" }}
+        style={{ width: "70vw" }}
         footer={renderFooter("displayBasic")}
         onHide={() => onHide("displayBasic")}
       >
@@ -78,7 +78,9 @@ const PromoPacks = () => {
             <p className="copy">
               18€/mes
             </p>
+            <a href="https://app.dudyfit.es/checkout-form/romanofitness?product=WFzQPtdTZhHjZSZ69" target="_blank" rel="noreferrer">
             <button className="btn">COMPRAR</button>
+            </a>
           </div>
         </div>
         <div className="card">
@@ -90,7 +92,9 @@ const PromoPacks = () => {
             <p className="copy">
               18€/mes
             </p>
+            <a href="https://app.dudyfit.es/checkout-form/romanofitness?product=8fdaEKnXwR2XhrAP8" target="_blank" rel="noreferrer">
             <button className="btn">COMPRAR</button>
+            </a>
           </div>
         </div>
         <div className="card">
@@ -103,7 +107,9 @@ const PromoPacks = () => {
             <p className="copy">
               25€/mes
             </p>
+            <a href="https://app.dudyfit.es/checkout-form/romanofitness?product=rotNDa7jJpFfGqsJQ" target="_blank" rel="noreferrer">
             <button className="btn">COMPRAR</button>
+            </a>
           </div>
         </div>
       </div>

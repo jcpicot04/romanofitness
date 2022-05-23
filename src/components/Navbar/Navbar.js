@@ -24,18 +24,14 @@ const Navbar = () => {
   <header className="header__middle">
       <div className="container">
           <div className="row">
-
-              {/* Add Logo  */}
               <div className="header__middle__logo">
                   <Link onClick={toggleClass} activeClass="active" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" href="#" to="">
                       <img src={logo} alt="logo" /> 
                   </Link>
               </div>
-
               <div className="header__middle__menus">
                   <nav className="main-nav " >
 
-                  {/* Responsive Menu Button */}
                   {isResponsiveclose === true ? <> 
                       <span className="menubar__button" style={{ display: 'none' }} onClick={toggleClass} > <FiXCircle />   </span>
                   </> : <> 
