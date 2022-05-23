@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="contact-form">
       <h1 id="header-form">CONTACTO</h1>
 
-      <form id="form" className="topBefore" action="https://formsubmit.co/info.romanofitness@gmail.com" method="POST">
+      <form id="form" className="topBefore" action="https://formsubmit.co/a9a24952ac49b7f3104cbe28d97f993f" method="POST">
         <input type="hidden" name="_captcha" value="false"/>
         <input type="hidden" name="_subject" value="Nuevo correo desde la web!"/>
         <input type="hidden" name="_template" value="table"/>
