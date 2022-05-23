@@ -13,8 +13,10 @@ const About = () => {
       <div>y cómo puedo <b>ayudarte</b> desde mi experiencia</div>
       <div>a conseguir tus <b>objetivos!</b></div>
       </div>
-      <ReactPlayer controls className='video'
-      url={video}  
+      <ReactPlayer
+       controls
+       className='video'
+       url={video}
       />
       </Slide>
     </div>
