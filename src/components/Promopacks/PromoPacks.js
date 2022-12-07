@@ -78,7 +78,7 @@ const PromoPacks = () => {
             <p className="copy">
               18€/mes
             </p>
-            <a href="https://app.dudyfit.es/checkout-form/romanofitness?product=WFzQPtdTZhHjZSZ69" target="_blank" rel="noreferrer">
+            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=WFzQPtdTZhHjZSZ69" target="_blank" rel="noreferrer">
             <button className="btn">COMPRAR</button>
             </a>
           </div>
@@ -92,7 +92,7 @@ const PromoPacks = () => {
             <p className="copy">
               18€/mes
             </p>
-            <a href="https://app.dudyfit.es/checkout-form/romanofitness?product=8fdaEKnXwR2XhrAP8" target="_blank" rel="noreferrer">
+            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=8fdaEKnXwR2XhrAP8" target="_blank" rel="noreferrer">
             <button className="btn">COMPRAR</button>
             </a>
           </div>
@@ -106,7 +106,7 @@ const PromoPacks = () => {
             <p className="copy">
               25€/mes
             </p>
-            <a href="https://app.dudyfit.es/checkout-form/romanofitness?product=rotNDa7jJpFfGqsJQ" target="_blank" rel="noreferrer">
+            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=rotNDa7jJpFfGqsJQ" target="_blank" rel="noreferrer">
             <button className="btn">COMPRAR</button>
             </a>
           </div>
