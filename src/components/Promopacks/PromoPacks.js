@@ -90,9 +90,9 @@ const PromoPacks = () => {
               Da igual si entrenas en casa o en el gym, éste es tu plan!
             </p>
             <p className="copy">
-              39€/mes
+              29€/mes
             </p>
-            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=FpK4reqPbWEBii5x7" target="_blank" rel="noreferrer">
+            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=Ajc5FawbKNXKzuiWq" target="_blank" rel="noreferrer">
             <button className="btn">COMPRAR</button>
             </a>
           </div>
@@ -104,9 +104,9 @@ const PromoPacks = () => {
               Beneficios del plan nutricional + plan entrenamiento juntos!
             </p>
             <p className="copy">
-              25€/mes
+              39€/mes
             </p>
-            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=rotNDa7jJpFfGqsJQ" target="_blank" rel="noreferrer">
+            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=FpK4reqPbWEBii5x7" target="_blank" rel="noreferrer">
             <button className="btn">COMPRAR</button>
             </a>
           </div>
