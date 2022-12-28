@@ -76,9 +76,9 @@ const PromoPacks = () => {
               Es momento de mejorar tus habitos alimenticios, ya no hay excusa!
             </p>
             <p className="copy">
-              18€/mes
+              29€/mes
             </p>
-            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=WFzQPtdTZhHjZSZ69" target="_blank" rel="noreferrer">
+            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=ifswzp2eqe7k8Dgpo" target="_blank" rel="noreferrer">
             <button className="btn">COMPRAR</button>
             </a>
           </div>
@@ -90,9 +90,9 @@ const PromoPacks = () => {
               Da igual si entrenas en casa o en el gym, éste es tu plan!
             </p>
             <p className="copy">
-              18€/mes
+              39€/mes
             </p>
-            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=8fdaEKnXwR2XhrAP8" target="_blank" rel="noreferrer">
+            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=FpK4reqPbWEBii5x7" target="_blank" rel="noreferrer">
             <button className="btn">COMPRAR</button>
             </a>
           </div>
