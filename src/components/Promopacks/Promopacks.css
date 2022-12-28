@@ -45,6 +45,12 @@ body {
 
 }
 
+.two-btn{
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-around;
+}
+
 @media (min-width: 1400px) {
   .page-content {
     grid-template-columns: repeat(2, 1fr);
@@ -77,6 +83,11 @@ body {
     padding: 1rem 1.75rem !important;
     font-size: 1rem !important;
   }
+
+  .two-btn__a button{
+    font-size: 0.5rem !important;
+  }
+
   .btnPacks{
     padding: 1rem 1.75rem !important;
     font-size: 1rem !important;   
@@ -91,6 +102,11 @@ body {
     padding: 1.25rem 2rem !important;
     font-size: 1.5rem !important;
   }
+
+  .two-btn__a button{
+    font-size: 0.5rem !important;
+  }
+
   .btnPacks{
     padding: 1.25rem 2rem !important;
     font-size: 1.5rem !important;   
@@ -127,6 +143,11 @@ body {
     padding: 1.25rem 2rem !important;
     font-size: 1.5rem !important;
   }
+
+  .two-btn__a button{
+    font-size: 0.5rem !important;
+  }
+
   .btnPacks{
     padding: 1.25rem 2rem !important;
     font-size: 1.5rem !important;   
@@ -147,6 +168,11 @@ body {
     padding: 1.25rem 2rem !important;
     font-size: 1.5rem !important;
   }
+
+  .two-btn__a button{
+    font-size: 0.5rem !important;
+  }
+
   .btnPacks{
     padding: 1.25rem 2rem !important;
     font-size: 1.5rem !important;   
@@ -234,6 +260,12 @@ body {
   outline: 1px solid rgb(255, 255, 255);
   border: none;
 }
+
+.two-btn__a button{
+  font-size: 0.8rem !important;
+  margin: 0.4rem;
+}
+
 .btn:hover {
   background-color: #0d0d0d;
 }
