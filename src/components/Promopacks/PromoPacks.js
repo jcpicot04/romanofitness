@@ -76,9 +76,9 @@ const PromoPacks = () => {
               Es momento de mejorar tus habitos alimenticios, ya no hay excusa!
             </p>
             <p className="copy">
-              29€/mes
+              45€/mes
             </p>
-            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=ifswzp2eqe7k8Dgpo" target="_blank" rel="noreferrer">
+            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gXEWKMxZDgbJgyB9e" target="_blank" rel="noreferrer">
             <button className="btn">COMPRAR</button>
             </a>
           </div>
@@ -90,9 +90,9 @@ const PromoPacks = () => {
               Da igual si entrenas en casa o en el gym, éste es tu plan!
             </p>
             <p className="copy">
-              29€/mes
+              45€/mes
             </p>
-            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=Ajc5FawbKNXKzuiWq" target="_blank" rel="noreferrer">
+            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=4HWsBLHDjdvcrsiK9" target="_blank" rel="noreferrer">
             <button className="btn">COMPRAR</button>
             </a>
           </div>
@@ -104,13 +104,13 @@ const PromoPacks = () => {
               Beneficios del plan nutricional + plan entrenamiento juntos!
             </p>
             <p className="copy">
-              39€/mes o 75€/3 meses
+              60€/mes o 120€/3 meses
             </p>
             <div className="two-btn">
-            <a className="two-btn__a" href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=FpK4reqPbWEBii5x7" target="_blank" rel="noreferrer">
+            <a className="two-btn__a" href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gv25cW5hKDSDCRiAN" target="_blank" rel="noreferrer">
             <button className="btn">COMPRAR 1 mes</button>
             </a>
-            <a className="two-btn__a" href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=NAsnwgt7EBgDjftup" target="_blank" rel="noreferrer">
+            <a className="two-btn__a" href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gAw3cdaSRHWiyvnxL" target="_blank" rel="noreferrer">
             <button className="btn">COMPRAR 3 meses</button>
             </a>
             </div>
