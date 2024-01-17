@@ -78,8 +78,9 @@ const PromoPacks = () => {
             <p className="copy">
               45€/mes
             </p>
-            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gXEWKMxZDgbJgyB9e" target="_blank" rel="noreferrer">
-            <button className="btn">COMPRAR</button>
+            {/* <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gXEWKMxZDgbJgyB9e" target="_blank" rel="noreferrer"> */}
+            <a>
+            <button className="btn">No disponible</button>
             </a>
           </div>
         </div>
@@ -92,8 +93,9 @@ const PromoPacks = () => {
             <p className="copy">
               45€/mes
             </p>
-            <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=4HWsBLHDjdvcrsiK9" target="_blank" rel="noreferrer">
-            <button className="btn">COMPRAR</button>
+            {/* <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=4HWsBLHDjdvcrsiK9" target="_blank" rel="noreferrer"> */}
+            <a>
+            <button className="btn">No disponible</button>
             </a>
           </div>
         </div>
@@ -106,14 +108,14 @@ const PromoPacks = () => {
             <p className="copy">
               60€/mes o 120€/3 meses
             </p>
-            <div className="two-btn">
-            <a className="two-btn__a" href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gv25cW5hKDSDCRiAN" target="_blank" rel="noreferrer">
-            <button className="btn">COMPRAR 1 mes</button>
+            {/* <a className="two-btn__a" href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gv25cW5hKDSDCRiAN" target="_blank" rel="noreferrer"> */}
+            <a>
+            <button className="btn">No disponible</button>
             </a>
-            <a className="two-btn__a" href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gAw3cdaSRHWiyvnxL" target="_blank" rel="noreferrer">
-            <button className="btn">COMPRAR 3 meses</button>
-            </a>
-            </div>
+            {/* <a className="two-btn__a" href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gAw3cdaSRHWiyvnxL" target="_blank" rel="noreferrer">
+            <a>
+            <button className="btn">No disponible</button>
+            </a> */}
           </div>
         </div>
       </div>
