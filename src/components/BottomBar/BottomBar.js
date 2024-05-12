@@ -6,6 +6,7 @@ import instagram from '../../assets/socialmedia/instagram.svg';
 const BottomBar = () => {
 
   require('./BottomBar.css');
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer  className="site-footer" role="contentinfo">
@@ -27,7 +28,7 @@ const BottomBar = () => {
   </div>
 
   <nav className="footer-nav" role="navigation">
-    <p>Copyright © 2022 - ROMANOFITNESS. All rights reserved.</p>
+    <p>Copyright © {currentYear} - ROMANOFITNESS. All rights reserved.</p>
   </nav>
 </footer>
   )

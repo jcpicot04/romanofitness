@@ -10,7 +10,6 @@ import IconsBar from './components/IconsBar/IconsBar';
 import Navbar from './components/Navbar/Navbar';
 import BottomBar from './components/BottomBar/BottomBar';
 import { ToastContainer, toast } from 'react-toastify';
-import { InputText } from 'primereact/inputtext';
 import '../node_modules/react-toastify/dist/ReactToastify.css';
 
 function App() {
@@ -48,12 +47,12 @@ function App() {
         <Home></Home>
         <About></About>
         <ThinsCarousel></ThinsCarousel>
-        <IconsBar></IconsBar>
+        {/* <IconsBar></IconsBar> */}
         <PromoPacks></PromoPacks>
         <Contact></Contact>
         <BottomBar></BottomBar>
         <Tooltip target=".float" position="left"/>
-        <a href="https://api.whatsapp.com/send?phone=643811345&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20planes%20de%20entrenamiento." className="float" data-pr-position="left" data-pr-tooltip="Infórmate por Whatsapp!" target="_blank" rel="noreferrer">
+        <a href="https://api.whatsapp.com/send?phone=643811345&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20retos." className="float" data-pr-position="left" data-pr-tooltip="Infórmate por Whatsapp!" target="_blank" rel="noreferrer">
           <i className="fa fa-whatsapp my-float"></i>
         </a>
     </div>

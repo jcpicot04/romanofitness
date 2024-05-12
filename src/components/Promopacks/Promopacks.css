@@ -7,16 +7,23 @@
 }
 
 .packs{
-  background-color: #080808;
+  background-color: #d8d6d6 !important;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .personalized{
   padding-top: 10vh;
-  padding-bottom: 6vh;
+  padding-bottom: 1vh;
   position: relative;
   color: white;
   font-family: "Space Grotesk", sans-serif;
   margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .p-component{
@@ -43,6 +50,18 @@ body {
   font-family: var(--font-sans);
   padding-bottom: 4vh;
 
+}
+
+.btnPacks{
+  background-color: #FCD42F;
+}
+
+.p-button{
+  background-color: #FCD42F !important;
+}
+
+.p-button:nth-child(1):before {
+  background-color: #f5fc2f !important;
 }
 
 .two-btn{
@@ -209,14 +228,32 @@ body {
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
-  background-image: url(https://images.pexels.com/photos/2543270/pexels-photo-2543270.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-image: url('../../assets/logo/IMPACTO30.png');
 }
 .card:nth-child(2):before {
-  background-image: url(https://img.freepik.com/foto-gratis/cierrese-arriba-muchas-pesas-gimnasia-metal-estante-gimnasio-deporte_1153-4629.jpg?t=st=1652394752~exp=1652395352~hmac=5c06c81cc972c95e3c5cd18b5b3f5f50e25d8dbd523893ab3eef190f5fc64ed4&w=1800);
+  background-image: url('../../assets/logo/IMPACTO60.png');
 }
 
 .card:nth-child(3):before {
-  background-image: url(https://img.freepik.com/foto-gratis/verduras-frescas-pesas-sobre-fondo-madera_23-2147882039.jpg?size=626&ext=jpg);
+  background-image: url('../../assets/logo/IMPACTO90.png');
+}
+
+@media screen and (max-width: 450px) {
+  .card:nth-child(1):before,.card:nth-child(3):before {
+    background-position: -70px center;
+  }
+  .card:nth-child(2):before {
+    background-position: -120px center;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 1200px) {
+  .card:nth-child(1):before,.card:nth-child(3):before {
+    background-position: center;
+  }
+  .card:nth-child(2):before {
+    background-position: center;
+  }
 }
 
 .content {
@@ -256,7 +293,8 @@ body {
   letter-spacing: 0.025rem;
   text-transform: uppercase;
   color: white;
-  background-color: black;
+  background-color: #FCD42F;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   outline: 1px solid rgb(255, 255, 255);
   border: none;
 }
@@ -267,7 +305,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #0d0d0d;
+  background-color: #f8b712;
 }
 .btn:focus {
   outline: 1px solid yellow;

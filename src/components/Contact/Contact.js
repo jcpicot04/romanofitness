@@ -12,8 +12,8 @@ const Contact = () => {
         <input type="hidden" name="_subject" value="Nuevo correo desde la web!"/>
         <input type="hidden" name="_template" value="table"/>
         <input type="hidden" name="_next" value={window.location.href+'?mail'}></input>
-        <input id="email" type="email" name="email" placeholder="E-MAIL" required/>
-        <textarea id="message" type="text" name="message" placeholder="MENSAJE" required></textarea>
+        <input id="email" type="email" name="email" placeholder="Escribe aquí tu email" required/>
+        <textarea id="message" type="text" name="message" placeholder="Escribe aquí tu consulta" required></textarea>
         <input id="submit" type="submit" value="ENVIAR!" />
       </form>
     </div>

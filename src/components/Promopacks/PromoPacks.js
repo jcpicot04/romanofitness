@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
 import { Button } from "primereact/button";
-import "primereact/resources/themes/lara-light-indigo/theme.css"; //theme
+import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
+import logo from "../../assets/IMPACTO3D.png";
+
 const PromoPacks = () => {
   require("./Promopacks.css");
   const [displayBasic, setDisplayBasic] = useState(false);
@@ -34,83 +36,65 @@ const PromoPacks = () => {
   };
   return (
     <div className="packs">
-      <h1 className="personalized">PLANES PERSONALIZADOS</h1>
-      <Button className="btnPacks" label="Qué incluyen?" onClick={() => onClick("displayBasic")} />
+      <h1 className="personalized">¡ÚNETE A NUESTROS RETOS EN VIVO!</h1>
+      <div className="info">
+        <img src={logo} alt="Logo" style={{width:'500px'}}></img>
+        <Button className="btnPacks" label="Qué incluyen?" onClick={() => onClick("displayBasic")} />
+      </div>
       <Dialog
-        header="CONTENIDO PLANES PERSONALIZADOS"
+        header="CONTENIDO RETOS IMPACTO"
         visible={displayBasic}
         style={{ width: "70vw" }}
         footer={renderFooter("displayBasic")}
         onHide={() => onHide("displayBasic")}
       >
-        <p>
-          1- Plan personalizado de entrenamiento en casa 🏠 o gym 🏋🏻‍♀️.{" "}
-          <b>(No incluido en el plan nutricional)</b>
-        </p>
-        <p>
-          2- Plan de alimentación personalizado 🍎🍆🌮🍕.{" "}
-          <b>(No incluido en el plan entrenamiento)</b>
-        </p>
-        <p>
-          3- Lista de la compra 📝.{" "}
-          <b>(No incluido en el plan entrenamiento)</b>
-        </p>
-        <p>4- Ebook de recetas saludables en constante actualización.</p>
-        <p>
-          5- Apartado de métricas, ahora podrás ver tu evolución con imágenes y
-          gráficas 📈.
-        </p>
-        <p>6- Apartado de documentos sobre alimentación y entrenamiento.</p>
-        <p>7- Acceso a la aplicación IMPACTO 📱.</p>
-        <p>8- Soporte vía chat 👥.</p>
-        <p>
-          9- Sesiones en vídeo (tutoriales, ejercicios, recetas, consejos...).
-        </p>
-        <p>10- Revisiones.</p>
+        <p>- Clases en directo cada día con Romano Fitness (incluye versión sin impacto)</p>
+        <p>- Sesiones con el nutricionista</p>
+        <p>- Grupo de apoyo privado a través de WhatsApp, para los participantes del reto</p>
+        <p>- Tanto las clases como las sesiones con el nutricionista se quedan grabadas para ti</p>
       </Dialog>
       <div className="page-content">
         <div className="card">
           <div className="content">
-            <h2 className="title">PLAN NUTRICIONAL</h2>
+            <h2 className="title">IMPACTO 30</h2>
             <p className="copy">
-              Es momento de mejorar tus habitos alimenticios, ya no hay excusa!
+              {/* Es momento de mejorar tus habitos alimenticios, ya no hay excusa! */}
             </p>
             <p className="copy">
-              45€/mes
+              ACCEDE A LA FASE GRATUITA
             </p>
-            {/* <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gXEWKMxZDgbJgyB9e" target="_blank" rel="noreferrer"> */}
-            <a>
-            <button className="btn">No disponible</button>
+            <a href="https://chat.whatsapp.com/DUtz27BKbru9Pk37SF6d3R" target="_blank" rel="noreferrer">
+            <button className="btn">Entra ahora</button>
             </a>
           </div>
         </div>
         <div className="card">
           <div className="content">
-            <h2 className="title">PLAN ENTRENAMIENTO</h2>
+            <h2 className="title">IMPACTO 60</h2>
             <p className="copy">
-              Da igual si entrenas en casa o en el gym, éste es tu plan!
+              Próximamente...
             </p>
             <p className="copy">
-              45€/mes
+              {/* 45€/mes */}
             </p>
             {/* <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=4HWsBLHDjdvcrsiK9" target="_blank" rel="noreferrer"> */}
             <a>
-            <button className="btn">No disponible</button>
+            <button className="btn">Deja tus datos y te avisamos</button>
             </a>
           </div>
         </div>
         <div className="card">
           <div className="content">
-            <h2 className="title">PLAN COMPLETO</h2>
+            <h2 className="title">IMPACTO 90</h2>
             <p className="copy">
-              Beneficios del plan nutricional + plan entrenamiento juntos!
+              {/* Beneficios del plan nutricional + plan entrenamiento juntos! */}
             </p>
             <p className="copy">
-              60€/mes o 120€/3 meses
+              {/* 60€/mes o 120€/3 meses */}
             </p>
             {/* <a className="two-btn__a" href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gv25cW5hKDSDCRiAN" target="_blank" rel="noreferrer"> */}
             <a>
-            <button className="btn">No disponible</button>
+            <button className="btn">Plazas cerradas</button>
             </a>
             {/* <a className="two-btn__a" href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gAw3cdaSRHWiyvnxL" target="_blank" rel="noreferrer">
             <a>
