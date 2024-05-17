@@ -56,7 +56,7 @@ const PromoPacks = () => {
       <div className="page-content">
         <div className="card">
           <div className="content">
-            <h2 className="title">IMPACTO 30</h2>
+            {/* <h2 className="title">IMPACTO 30</h2> */}
             <p className="copy">
               {/* Es momento de mejorar tus habitos alimenticios, ya no hay excusa! */}
             </p>
@@ -70,7 +70,7 @@ const PromoPacks = () => {
         </div>
         <div className="card">
           <div className="content">
-            <h2 className="title">IMPACTO 60</h2>
+            {/* <h2 className="title">IMPACTO 60</h2> */}
             <p className="copy">
               {/* Próximamente... */}
             </p>
@@ -85,7 +85,7 @@ const PromoPacks = () => {
         </div>
         <div className="card">
           <div className="content">
-            <h2 className="title">IMPACTO 90</h2>
+            {/* <h2 className="title">IMPACTO 90</h2> */}
             <p className="copy">
               {/* Beneficios del plan nutricional + plan entrenamiento juntos! */}
             </p>

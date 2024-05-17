@@ -247,16 +247,30 @@ body {
 @media screen and (max-width: 375px) {
   .card:nth-child(1):before,.card:nth-child(2):before, .card:nth-child(3):before {
     background-size: 130%;
-    background-position:center 40px;
+    background-position: center -15px;
   }
    
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px) {
+@media screen and (min-width: 376px) and (max-width: 415px) {
   .card:nth-child(1):before,.card:nth-child(2):before, .card:nth-child(3):before {
     background-size: 100%;
-    background-position:center 30px;
+    background-position: center 8px;
   }
+}
+
+@media screen and (min-width: 416px) and (max-width: 625px) {
+  .card:nth-child(1):before,.card:nth-child(2):before, .card:nth-child(3):before {
+    background-size: 100%;
+    background-position: center -23px;
+  }
+
+@media screen and (min-width: 490px) and (max-width: 780px) {
+  .card:nth-child(1):before,.card:nth-child(2):before, .card:nth-child(3):before {
+    background-size: 100%;
+    background-position: center -60px;
+  }
+}
    
 }
 
