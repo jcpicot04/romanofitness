@@ -61,10 +61,10 @@ const PromoPacks = () => {
               {/* Es momento de mejorar tus habitos alimenticios, ya no hay excusa! */}
             </p>
             <p className="copy">
-              ACCEDE A LA FASE GRATUITA
+              {/* ACCEDE AHORA */}
             </p>
             <a href="https://chat.whatsapp.com/DUtz27BKbru9Pk37SF6d3R" target="_blank" rel="noreferrer">
-            <button className="btn">Entra ahora</button>
+            <button className="btn">Accede ahora a la fase gratuita</button>
             </a>
           </div>
         </div>
@@ -72,14 +72,14 @@ const PromoPacks = () => {
           <div className="content">
             <h2 className="title">IMPACTO 60</h2>
             <p className="copy">
-              Próximamente...
+              {/* Próximamente... */}
             </p>
             <p className="copy">
               {/* 45€/mes */}
             </p>
             {/* <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=4HWsBLHDjdvcrsiK9" target="_blank" rel="noreferrer"> */}
             <a>
-            <button className="btn">Deja tus datos y te avisamos</button>
+            <button className="btn">Próximamente</button>
             </a>
           </div>
         </div>
