@@ -49,7 +49,6 @@ body {
   margin: 0 auto;
   font-family: var(--font-sans);
   padding-bottom: 4vh;
-
 }
 
 .btnPacks{
@@ -70,7 +69,7 @@ body {
   justify-content: space-around;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1100px) {
   .page-content {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -199,7 +198,6 @@ body {
   .personalized{
     font-size: 5rem;
   }
- 
 }
 
 .card:before {
@@ -223,19 +221,22 @@ body {
   width: 100%;
   height: 200%;
   pointer-events: none;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
   transform: translateY(-50%);
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
   background-image: url('../../assets/logo/IMPACTO30.png');
+  background-color: #000000;
   background-size: 100%;
   background-position:center;
+  background-repeat: no-repeat;
 }
 .card:nth-child(2):before {
   background-image: url('../../assets/logo/IMPACTO60.png');
+  background-color: #000000;
   background-size: 100%;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .card:nth-child(3):before {
@@ -246,7 +247,7 @@ body {
 
 @media screen and (max-width: 375px) {
   .card:nth-child(1):before,.card:nth-child(2):before, .card:nth-child(3):before {
-    background-size: 130%;
+    background-size: 100%;
     background-position: center -15px;
   }
    
@@ -264,14 +265,12 @@ body {
     background-size: 100%;
     background-position: center -23px;
   }
-
+}
 @media screen and (min-width: 490px) and (max-width: 780px) {
   .card:nth-child(1):before,.card:nth-child(2):before, .card:nth-child(3):before {
     background-size: 100%;
     background-position: center -60px;
   }
-}
-   
 }
 
 .content {
@@ -284,9 +283,6 @@ body {
   transition: transform var(--d) var(--e);
   z-index: 1;
 }
-.content > * + * {
-  margin-top: 1rem;
-}
 
 .title {
   font-size: 1.3rem;
@@ -295,16 +291,18 @@ body {
 }
 
 .copy {
+  padding-top: 5px;
   font-family: "Space Grotesk", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-style: italic;
   line-height: 1.35;
   text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 
 .btn {
   cursor: pointer;
-  margin-top: 1.5rem;
   padding: 1rem 1.8rem;
   font-size: 1rem;
   font-weight: bold;
@@ -315,6 +313,7 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   outline: 1px solid rgb(255, 255, 255);
   border: none;
+  margin-top: 0.5rem;
 }
 
 .two-btn__a button{
@@ -329,19 +328,24 @@ body {
   outline: 1px solid yellow;
 }
 
-@media (hover: hover) and (min-width: 1400px) {
-  .card:after {
-    transform: translateY(0);
-  }
+@media (hover: hover) and (min-width: 600px) {
 
-  .content {
-    transform: translateY(calc(100% - 4.5rem));
-  }
-  .content > *:not(.title) {
-    opacity: 0;
-    transform: translateY(1rem);
-    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
-  }
+.card:after {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+}
+
+.card:after {
+  transform: translateY(0);
+}
+
+.content {
+  transform: translateY(calc(100% - 4.5rem));
+}
+.content > *:not(.title) {
+  opacity: 0;
+  transform: translateY(1rem);
+  transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+}
 
   .card:hover,
 .card:focus-within {

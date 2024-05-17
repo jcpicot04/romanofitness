@@ -61,10 +61,10 @@ const PromoPacks = () => {
               {/* Es momento de mejorar tus habitos alimenticios, ya no hay excusa! */}
             </p>
             <p className="copy">
-              {/* ACCEDE AHORA */}
+              (Accede ahora)
             </p>
             <a href="https://chat.whatsapp.com/DUtz27BKbru9Pk37SF6d3R" target="_blank" rel="noreferrer">
-            <button className="btn">Accede ahora a la fase gratuita</button>
+            <button className="btn">Fase gratuita</button>
             </a>
           </div>
         </div>
