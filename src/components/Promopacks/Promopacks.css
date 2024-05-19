@@ -241,8 +241,10 @@ body {
 
 .card:nth-child(3):before {
   background-image: url('../../assets/logo/IMPACTO90.png');
+  background-color: #000000;
   background-size: 100%;
   background-position:center;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 375px) {
