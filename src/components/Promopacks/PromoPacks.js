@@ -63,8 +63,8 @@ const PromoPacks = () => {
             <p className="copy">
               (Accede ahora)
             </p>
-            <a href="https://chat.whatsapp.com/DUtz27BKbru9Pk37SF6d3R" target="_blank" rel="noreferrer">
-            <button className="btn">Fase gratuita</button>
+            <a href="https://romanofitness.net" target="_blank" rel="noreferrer">
+            <button className="btn">¡QUIERO PARTICIPAR!</button>
             </a>
           </div>
         </div>
