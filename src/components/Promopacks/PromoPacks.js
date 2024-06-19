@@ -61,25 +61,26 @@ const PromoPacks = () => {
               {/* Es momento de mejorar tus habitos alimenticios, ya no hay excusa! */}
             </p>
             <p className="copy">
-              (Accede ahora)
+              {/* (Accede ahora) */}
             </p>
-            <a href="https://romanofitness.net" target="_blank" rel="noreferrer">
-            <button className="btn">¡QUIERO PARTICIPAR!</button>
-            </a>
+            {/* <a href="https://romanofitness.net" target="_blank" rel="noreferrer"> */}
+            <button className="btn">PLAZAS CERRADAS</button>
+            {/* </a> */}
           </div>
         </div>
         <div className="card">
           <div className="content">
             {/* <h2 className="title">IMPACTO 60</h2> */}
+            <p></p>
+            <p></p>
             <p className="copy">
-              {/* Próximamente... */}
+              PRÓXIMAMENTE
             </p>
             <p className="copy">
               {/* 45€/mes */}
             </p>
-            {/* <a href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=4HWsBLHDjdvcrsiK9" target="_blank" rel="noreferrer"> */}
-            <a>
-            <button className="btn">Próximamente</button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlXOhUGO0lFBpTsiM_zxfjrAK3uXpSahUgJe2JT_WpPDP05g/viewform" target="_blank" rel="noreferrer">
+            <button className="btn">ACCEDE A LA LISTA DE ESPERA</button>
             </a>
           </div>
         </div>
@@ -94,7 +95,7 @@ const PromoPacks = () => {
             </p>
             {/* <a className="two-btn__a" href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gv25cW5hKDSDCRiAN" target="_blank" rel="noreferrer"> */}
             <a>
-            <button className="btn">Plazas cerradas</button>
+            <button className="btn">PLAZAS CERRADAS</button>
             </a>
             {/* <a className="two-btn__a" href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gAw3cdaSRHWiyvnxL" target="_blank" rel="noreferrer">
             <a>
