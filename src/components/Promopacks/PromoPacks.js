@@ -73,14 +73,14 @@ const PromoPacks = () => {
             {/* <h2 className="title">IMPACTO 60</h2> */}
             <p></p>
             <p></p>
-            <p className="copy">
+            {/* <p className="copy">
               PRÓXIMAMENTE
-            </p>
+            </p> */}
             <p className="copy">
               {/* 45€/mes */}
             </p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlXOhUGO0lFBpTsiM_zxfjrAK3uXpSahUgJe2JT_WpPDP05g/viewform" target="_blank" rel="noreferrer">
-            <button className="btn">ACCEDE A LA LISTA DE ESPERA</button>
+            <a href="https://romanofitness.net" target="_blank" rel="noreferrer">
+            <button className="btn">PLAZAS ABIERTAS</button>
             </a>
           </div>
         </div>
@@ -91,11 +91,10 @@ const PromoPacks = () => {
               {/* Beneficios del plan nutricional + plan entrenamiento juntos! */}
             </p>
             <p className="copy">
-              {/* 60€/mes o 120€/3 meses */}
+              PRÓXIMAMENTE
             </p>
-            {/* <a className="two-btn__a" href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gv25cW5hKDSDCRiAN" target="_blank" rel="noreferrer"> */}
-            <a>
-            <button className="btn">PLAZAS CERRADAS</button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlXOhUGO0lFBpTsiM_zxfjrAK3uXpSahUgJe2JT_WpPDP05g/viewform" target="_blank" rel="noreferrer">
+            <button className="btn">ACCEDE A LA LISTA DE ESPERA</button>
             </a>
             {/* <a className="two-btn__a" href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gAw3cdaSRHWiyvnxL" target="_blank" rel="noreferrer">
             <a>
