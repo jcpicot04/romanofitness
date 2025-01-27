@@ -90,9 +90,9 @@ const PromoPacks = () => {
             <p className="copy">
               {/* Beneficios del plan nutricional + plan entrenamiento juntos! */}
             </p>
-            {/* <p className="copy">
-              PRÓXIMAMENTE
-            </p> */}
+            <p className="copy">
+              {/* PRÓXIMAMENTE */}
+            </p>
             <a href="https://romanofitness.net" target="_blank" rel="noreferrer">
             <button className="btn">ACCEDE YA</button>
             </a>
