@@ -63,9 +63,9 @@ const PromoPacks = () => {
             <p className="copy">
               {/* (Accede ahora) */}
             </p>
-            {/* <a href="https://romanofitness.net" target="_blank" rel="noreferrer"> */}
-            <button className="btn">PRÓXIMAMENTE</button>
-            {/* </a> */}
+            <a href="https://romanofitness.net" target="_blank" rel="noreferrer">
+            <button className="btn">ACCEDE YA</button>
+            </a>
           </div>
         </div>
         <div className="card">
@@ -93,9 +93,9 @@ const PromoPacks = () => {
             <p className="copy">
               {/* PRÓXIMAMENTE */}
             </p>
-            <a href="https://romanofitness.net" target="_blank" rel="noreferrer">
-            <button className="btn">ACCEDE YA</button>
-            </a>
+            {/* <a href="https://romanofitness.net" target="_blank" rel="noreferrer"> */}
+            <button className="btn">PRÓXIMAMENTE</button>
+            {/* </a> */}
             {/* <a className="two-btn__a" href="https://impactofitness.harbiz.io/checkout-form/impactofitness?product=gAw3cdaSRHWiyvnxL" target="_blank" rel="noreferrer">
             <a>
             <button className="btn">No disponible</button>
