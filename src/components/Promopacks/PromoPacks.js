@@ -63,9 +63,9 @@ const PromoPacks = () => {
             <p className="copy">
               {/* (Accede ahora) */}
             </p>
-            <a href="https://romanofitness.net" target="_blank" rel="noreferrer">
-            <button className="btn">ACCEDE YA</button>
-            </a>
+            {/* <a href="https://romanofitness.net" target="_blank" rel="noreferrer"> */}
+            <button className="btn">PLAZAS CERRADAS</button>
+            {/* </a> */}
           </div>
         </div>
         <div className="card">
